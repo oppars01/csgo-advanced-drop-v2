@@ -3,13 +3,11 @@ $STEAM_API_KEY = '';
 
 function security($data)
 {
-    $data = str_replace('"', '＂', $data);
-    return trim(addslashes(strip_tags($data)));
+    return trim(addslashes(strip_tags(str_replace('"', '＂', $data))));
 }
 function securityPrint($data)
 {
-    $data = str_replace('"', '＂', $data);
-    return trim(html_entity_decode(strip_tags(stripslashes(htmlentities($data)))));
+    return trim(html_entity_decode(strip_tags(stripslashes(htmlentities(str_replace('"', '＂', $data))))));
 }
 
 header('Content-Type: application/json');
