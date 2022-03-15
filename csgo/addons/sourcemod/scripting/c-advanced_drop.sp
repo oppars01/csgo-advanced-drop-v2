@@ -69,6 +69,7 @@ public void OnPluginEnd()
 
 public void OnMapStart()
 {
+    if(FindCommandLineParam("-insecure"))SetFailState("%t", "Insecure Error" , s_tag_plugin);
     Settings();
     BuildPath( Path_SM, s_drop_items, sizeof( s_drop_items ), "configs/dropitems.cfg" );
     PrecacheSound("ui/panorama/case_awarded_1_uncommon_01.wav");
