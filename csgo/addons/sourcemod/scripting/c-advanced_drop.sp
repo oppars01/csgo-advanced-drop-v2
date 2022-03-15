@@ -262,7 +262,7 @@ void SendDropData(ArrayList DataArray){
             }
             FormatTime(s_temp2, sizeof(s_temp2), "%d.%m.%Y %X", GetTime());
             Format(s_temp, sizeof(s_temp), "%t", "Embed Footer", s_tag_plugin, s_temp2);
-            me_embed.SetFooterIcon(s_plugin_image);
+            me_embed.SetFooterIcon("https://drop.csgo-turkiye.com/drop.png");
             if (s_temp[0] != '-')me_embed.SetFooter(s_temp);
             dw_hook.Embed(me_embed);
             dw_hook.Send();
@@ -373,7 +373,7 @@ void ClientPrimeStatus(int client){
             Handle h_request = SteamWorks_CreateHTTPRequest(k_EHTTPMethodGET, "https://prime.napas.cc/request");
             SteamWorks_SetHTTPRequestNetworkActivityTimeout(h_request, 10);
             IntToString(GetSteamAccountID(client), s_account_id, sizeof(s_account_id));
-            SteamWorks_SetHTTPRequestGetOrPostParameter(h_request, "key", 		s_prime_api_key);
+            SteamWorks_SetHTTPRequestGetOrPostParameter(h_request, "key", s_prime_api_key);
             SteamWorks_SetHTTPRequestGetOrPostParameter(h_request, "accountid", s_account_id);
             SteamWorks_SetHTTPCallbacks(h_request, HTTPRequestComplete);
             SteamWorks_SetHTTPRequestContextValue(h_request, client);
