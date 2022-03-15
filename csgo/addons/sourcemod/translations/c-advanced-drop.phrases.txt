@@ -1,5 +1,12 @@
 "Phrases"
 {
+	"Insecure Error"
+	{
+		"#format" 		"{1:s}"
+        "en"			"{1} The plugin has not been activated because VAC protection is not active on the server."
+		"tr"			"{1} Sunucuda VAC koruması aktif olmadığı için eklenti aktif edilmedi."
+    }
+	
 	"GameData Error"
 	{
 		"#format" 		"{1:s}"
