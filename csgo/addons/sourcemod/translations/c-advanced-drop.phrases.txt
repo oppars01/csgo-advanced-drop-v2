@@ -48,6 +48,7 @@
 	{
 		"#format" 		"{1:s}"
 		"en"			"{1} Not as we expected at DropForAllPlayersPatch, drop will not be available for all players."
+		"pt"			"{1} Not as we expected at DropForAllPlayersPatch, drop will not be available for all players."
 		"tr"			"{1} DropForAllPlayersPatch beklediğimiz gibi değil, drop tüm oyuncular için geçerli olmayacak."
 	}
 
@@ -55,6 +56,7 @@
 	{
 		"#format" 		"{1:s}"
 		"en"			"{1} Failed to get DropForAllPlayersPatch address, drop will not be available for all players."
+		"pt"			"{1} Failed to get DropForAllPlayersPatch address, drop will not be available for all players."
 		"tr"			"{1} DropForAllPlayersPatch adresi alınamadı, drop tüm oyuncular için geçerli olmayacak."
 	}
 
@@ -86,13 +88,15 @@
 	{
 		"#format" 		"{1:s}{2:N}"
 		"en"			"{1} Player: {2} Failed to Prime Status data from 'prime.napas.cc'. A retry will be made after 15 seconds."
+		"pt"			"{1} Player: {2} Falha ao acessar os dados do Prime Status da 'prime.napas.cc'. Uma nova tentativa será feita após 15 segundos."
 		"tr"			"{1} Oyuncu: {2} 'prime.napas.cc' sitesinden Oyuncu Prime kontrolü yapılamadı. 15 saniye sonra tekrar deneme yapılacak."
 	}
 
 	"Prime Api Invalid Request"
 	{
 		"#format" 		"{1:s}{2:N}"
-		"en"			"{1} Player: {2} - Prime API invalid request."
+		"en"			"{1} Player: {2} - Prime API Invalid Request."
+		"pt"			"{1} Player: {2} - Prime API Invalid Request."
 		"tr"			"{1} Oyuncu: {2} - Prime API geçersiz istek."
 	}
 
@@ -100,6 +104,7 @@
 	{
 		"#format" 		"{1:s}{2:N}"
 		"en"			"{1} Player: {2} - Prime API Invalid API Key"
+		"pt"			"{1} Player: {2} - Prime API Invalid API Key"
 		"tr"			"{1} Oyuncu: {2} - Prime Konrol Geçersiz API Anahtarı"
 	}
 
@@ -107,6 +112,7 @@
 	{
 		"#format" 		"{1:s}{2:N}"
 		"en"			"{1} Player: {2} - Account status is Prime."
+		"pt"			"{1} Player: {2} - Status da conta é Prime."
 		"tr"			"{1} Oyuncu: {2} - Hesap durumu Prime."
 	}
 
@@ -114,6 +120,7 @@
 	{
 		"#format" 		"{1:s}{2:N}"
 		"en"			"{1} Player: {2} - Account status is NoPrime."
+		"pt"			"{1} Player: {2} - Status da conta é NoPrime."
 		"tr"			"{1} Oyuncu: {2} - Hesap durumu Prime Değil."
 	}
 
@@ -121,6 +128,7 @@
 	{
 		"#format" 		"{1:s}{2:N}"
 		"en"			"{1} Player: {2} - Account status is NoPrime. A retry will be made after 15 seconds."
+		"pt"			"{1} Player: {2} - Status da conta é NoPrime. Uma nova tentativa será feita após 15 segundos."
 		"tr"			"{1} Oyuncu: {2} - Hesap durumu için 15 saniye sonra tekrara deneme yapılacak."
 	}
 
