@@ -2,15 +2,17 @@
 {
 	"Insecure Error"
 	{
-		"#format" 		"{1:s}"
-        "en"			"{1} The plugin has not been activated because VAC protection is not active on the server."
+		"#format"		"{1:s}"
+		"en"			"{1} The plugin has not been activated because VAC protection is not active on the server."
+		"pt"			"{1} O plugin não foi ativado porque a proteção VAC não está ativa no servidor."
 		"tr"			"{1} Sunucuda VAC koruması aktif olmadığı için eklenti aktif edilmedi."
-    }
+	}
 	
 	"GameData Error"
 	{
 		"#format" 		"{1:s}"
 		"en"			"{1} Failed to load drop game data."
+		"pt"			"{1} Failed to load drop game data."
 		"tr"			"{1} Drop oyun verileri yüklenemedi."
 	}
 
@@ -60,6 +62,7 @@
 	{
 		"#format" 		"{1:s}{2:d}"
 		"en"			"{1} Drop active. Drop attempts will be made at intervals of {2} seconds in the map."
+		"pt"			"{1} Drop ativo. As tentativas de drops serão feitas em intervalos de {2} segundos no mapa."
 		"tr"			"{1} Drop aktif. Harita içerisinde {2} saniye aralıklar ile drop denemeleri yapılacak."
 	}
 
@@ -67,6 +70,7 @@
 	{
 		"#format" 		"{1:s}"
 		"en"			"{orange}{1} {darkblue}Trying Drop..."
+		"pt"			"{orange}{1} {darkblue}Tentando Drop..."
 		"tr"			"{orange}{1} {darkblue}Drop Düşürülüyor..."
 	}
 
@@ -74,6 +78,7 @@
 	{
 		"#format" 		"{1:s}"
 		"en"			"{orange}{1} {darkred}Drop Attempt Failed :("
+		"pt"			"{orange}{1} {darkred}Falha na Tentativa de Drop :("
 		"tr"			"{orange}{1} {darkred}Kimseye Drop Düşmedi :("
 	}
 
@@ -87,15 +92,15 @@
 	"Prime Api Invalid Request"
 	{
 		"#format" 		"{1:s}{2:N}"
-		"en"			"{1} Player: {2} - Prime Api invalid request."
-		"tr"			"{1} Oyuncu: {2} - Prime Api geçersiz istek."
+		"en"			"{1} Player: {2} - Prime API invalid request."
+		"tr"			"{1} Oyuncu: {2} - Prime API geçersiz istek."
 	}
 
 	"Prime Api Invalid Api Key"
 	{
 		"#format" 		"{1:s}{2:N}"
-		"en"			"{1} Player: {2} - Prime Api Invalid Api Key"
-		"tr"			"{1} Oyuncu: {2} - Prime Konrol Geçersiz Api Anahtarı"
+		"en"			"{1} Player: {2} - Prime API Invalid API Key"
+		"tr"			"{1} Oyuncu: {2} - Prime Konrol Geçersiz API Anahtarı"
 	}
 
 	"Client Prime"
@@ -126,36 +131,36 @@
 		"tr"			"{1} Drop Fiyatı Çekilemedi. DefIndex: {2}"
 	}
 
-    "Failed to Drop Item"
+	"Failed to Drop Item"
 	{
 		"#format" 		"{1:s}{2:d}"
 		"en"			"{1} Failed to Drop Info. DefIndex: {2}"
 		"tr"			"{1} Drop Bilgisi Çekilemedi. DefIndex: {2}"
 	}
 
-    "Failed to Drop Item ImportFromString"
-    {
+	"Failed to Drop Item ImportFromString"
+	{
 		"#format" 		"{1:s}{2:d}"
 		"en"			"{1} Unable to Read Incoming Data for Drop Information. DefIndex: {2}"
 		"tr"			"{1} Drop Bilgisi İçin Gelen Veri Okunamadı. DefIndex: {2}"
 	}
 
-    "Failed to Drop Item Result Error"
-    {
+	"Failed to Drop Item Result Error"
+	{
 		"#format" 		"{1:s}{2:d}"
 		"en"			"{1} Result of Incoming Data for Drop Information Could Not Be Reached. DefIndex: {2}"
 		"tr"			"{1} Drop Bilgisi İçin Gelen Veri Sonucuna Ulaşılamadı. DefIndex: {2}"
 	}
 
-    "Failed to Drop Item Status Error"
-    {
+	"Failed to Drop Item Status Error"
+	{
 		"#format" 		"{1:s}{2:d}{3:s}"
 		"en"			"{1} Incoming Data Status for Drop Information Incorrect. DefIndex: {2} - Error: {3}"
 		"tr"			"{1} Drop Bilgisi İçin Gelen Veri Durumu Hatalı. DefIndex: {2} - Hata: {3}"
 	}
 
-    "New Item"
-    {
+	"New Item"
+	{
 		"#format" 		"{1:s}{2:d}{3:s}"
 		"en"			"{1} Added New Drop Item. DefIndex: {2} - Item Name: {3}"
 		"tr"			"{1} Yeni Drop Ögesi Eklendi. DefIndex: {2} - Öge Adı: {3}"
@@ -165,6 +170,7 @@
 	{
 		"#format" 		"{1:s}"
 		"en"			"{1} You dropped a drop! Check your inventory."
+		"pt"			"{1} Você recebeu um drop! Verifique seu iventário."
 		"tr"			"{1} Drop düştü! Envanterini kontrol et."
 	}
 
@@ -175,15 +181,17 @@
 		"tr"			"{1} şunu düşürdü: [{2}-{3}-{4}-{5}] {6} | Fiyat: {7}"
 	}
 
-    "Unknow Drop"
+	"Unknow Drop"
 	{
 		"en"			"NOT FOUND INFORMATION ABOUT DROP ITEM"
+		"pt"			"NÃO ENCONTROU INFORMAÇÕES SOBRE DROP DE ITEM"
 		"tr"			"DROP BİLGİSİ BULUNAMADI"
 	}
 
 	"Unknow Price"
 	{
 		"en"			"0 TL"
+		"pt"			"0 TL"
 		"tr"			"0 TL"
 	}
 	
@@ -191,18 +199,21 @@
 	{
 		"#format" 		"{1:s}{2:N}{3:s}{4:s}"
 		"en"			"{orange}{1} {green}Player {darkblue}{2} {darkred}dropped this: {blue}{3} {green}| Price: {orchid}{4}"
+		"pt"			"{orange}{1} {green}Player {darkblue}{2} {darkred}dropou: {blue}{3} {green}| Preço: {orchid}{4}"
 		"tr"			"{orange}{1} {green}Oyuncu {darkblue}{2} {darkred}şunu düşürdü: {blue}{3} {green}| Fiyat: {orchid}{4}"
 	}
 
 	"Embed SetTitle" /*Put "-" in the first character to not send this field.*/
 	{
 		"en"			"A Player Dropped"
+		"pt"			"Um player recebeu um drop"
 		"tr"			"Bir Oyuncuya Drop Düştü"
 	}
 
 	"Embed Field Hostname Title" /*Put "-" in the first character to not send this field.*/
 	{
 		"en"			"Hostname"
+		"pt"			"Hostname"
 		"tr"			"Sunucu Adı"
 	}
 
@@ -210,12 +221,14 @@
 	{
 		"#format" 		"{1:s}{2:s}{3:d}"
 		"en"			"{1} ★{2}:{3}★"
+		"pt"			"{1} ★{2}:{3}★"
 		"tr"			"{1} ★{2}:{3}★"
 	}
 
 	"Embed Field Player Info Title" /*Put "-" in the first character to not send this field.*/
 	{
 		"en"			"Player"
+		"pt"			"Player"
 		"tr"			"Oyuncu"
 	}
 
@@ -223,12 +236,14 @@
 	{
 		"#format" 		"{1:s}{2:s}{3:s}"
 		"en"			"{1} [★{2}★](http://steamcommunity.com/profiles/{3})"
+		"pt"			"{1} [★{2}★](http://steamcommunity.com/profiles/{3})"
 		"tr"			"{1} [★{2}★](http://steamcommunity.com/profiles/{3})"
 	}
 
 	"Embed Field Item Info Title" /*Put "-" in the first character to not send this field.*/
 	{
 		"en"			"Item"
+		"pt"			"Item"
 		"tr"			"Drop"
 	}
 
@@ -236,12 +251,14 @@
 	{
 		"#format" 		"{1:s}"
 		"en"			"{1}"
+		"pt"			"{1}"
 		"tr"			"{1}"
 	}
 
 	"Embed Field Price Info Title" /*Put "-" in the first character to not send this field.*/
 	{
 		"en"			"Price"
+		"pt"			"Preço"
 		"tr"			"Fiyat"
 	}
 
@@ -249,6 +266,7 @@
 	{
 		"#format" 		"{1:s}{2:s}"
 		"en"			"[{1}]({2})"
+		"pt"			"[{1}]({2})"
 		"tr"			"[{1}]({2})"
 	}
 
@@ -256,6 +274,7 @@
 	{
 		"#format" 		"{1:s}{2:s}"
 		"en"			"{1} • {2}"
+		"pt"			"{1} • {2}"
 		"tr"			"{1} • {2}"
 	}
 }
