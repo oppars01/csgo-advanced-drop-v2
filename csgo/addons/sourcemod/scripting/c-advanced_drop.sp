@@ -156,7 +156,7 @@ void DropEvent(ArrayList DataArray){
             DropPriceHTTP(s_url, DataArray);
         }
         delete kv;
-    }
+    }else delete DataArray;
 }
 
 void DropPriceHTTP(char url[255], ArrayList DataArray){
@@ -269,6 +269,7 @@ void SendDropData(ArrayList DataArray){
             delete dw_hook;
         }
     }
+    delete DataArray;
 }
 
 void ItemQuery(ArrayList DataArray){
@@ -318,6 +319,7 @@ void DropItem(Handle hRequest, bool bFailure, bool bRequestSuccessful, EHTTPStat
         delete kv_data;
     }
     if(!b_status)SendDropData(DataArray);
+    else delete DataArray;
 }
 
 void NewItem(int def_index, char item_name[64], char image_url[255], char market_url[255]){
